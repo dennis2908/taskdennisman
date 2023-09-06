@@ -46,7 +46,7 @@
                     :options="this.items"
                   >
                     <template #prepend-content>
-                      <CIcon name="cil-lock-locked" />
+                      <CIcon name="cil-globe-alt" />
                     </template>
                   </CSelect>
                   <CRow>
@@ -110,6 +110,9 @@ export default {
           });
         });
     },
+    goDef() {
+      window.location.href = "";
+    },
     async submit(event) {
       await fetch("http://localhost:8080/api/akuns/Login", {
         method: "post",
@@ -135,7 +138,7 @@ export default {
         await localStorage.setItem("DataVue", JSON.stringify(this.formData));
         console.log(localStorage.getItem("Layar"));
         console.log(localStorage.getItem("DataVue"));
-        window.location.href = "";
+        setInterval(this.goDef(), 1500);
       }
       // console.log(this.formData.username)
       // if (!this.formDataMessage.password && !this.formDataMessage.password && this.formData.username === "console" && this.formData.password === "myconsole") {
