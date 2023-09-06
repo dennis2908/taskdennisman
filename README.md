@@ -7,5 +7,5 @@ browser Laptop : http://localhost:8090
 ```
 
 ```
-username : dennis01 , password : dennis01, role : superadmin
+username : dennis01 , password : dennis01, role : superadmin (Jika tidak masuk, login 2x)
 ```

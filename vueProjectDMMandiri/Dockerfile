@@ -1,8 +1,9 @@
-FROM node:16.13-alpine
+FROM node:16.1.0-alpine
 WORKDIR /app
 COPY package.json ./
-EXPOSE 8090
+COPY ./ ./
 RUN npm install --save redux
 RUN npm i
+EXPOSE 8090
 COPY . .
 CMD ["npm", "run", "serve"]
