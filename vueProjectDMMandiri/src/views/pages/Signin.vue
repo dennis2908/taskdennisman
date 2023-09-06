@@ -131,8 +131,8 @@ export default {
         });
       console.log(Object.keys(this.result).length);
       if (this.result.length > 0) {
-        localStorage.setItem("Layar", JSON.stringify(this.result));
-        localStorage.setItem("DataVue", JSON.stringify(this.formData));
+        await localStorage.setItem("Layar", JSON.stringify(this.result));
+        await localStorage.setItem("DataVue", JSON.stringify(this.formData));
         console.log(localStorage.getItem("Layar"));
         console.log(localStorage.getItem("DataVue"));
         window.location.href = "";

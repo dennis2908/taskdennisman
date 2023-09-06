@@ -35,10 +35,7 @@ export default {
     TheFooter,
     Signin
   },
-  mounted() {
-    if (localStorage.getItem("Layar") !== "")
-      router.push({ path: "/pages/signin" });
-  }
+  mounted() {}
 };
 </script>
 
