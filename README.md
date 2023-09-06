@@ -1,4 +1,8 @@
 ```
+Front End : Vue; Back End : C# Entity Framework
+```
+
+```
 docker compose up --build
 ```
 
