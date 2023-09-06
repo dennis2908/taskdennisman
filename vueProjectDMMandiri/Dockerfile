@@ -1,7 +1,6 @@
 FROM node:16.1.0-alpine
 WORKDIR /app
 COPY package.json ./
-COPY ./ ./
 RUN npm install --save redux
 RUN npm i
 EXPOSE 8090
