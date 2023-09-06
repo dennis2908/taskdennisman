@@ -1,5 +1,5 @@
 ```
-Front End : Vue; Back End : C# Entity Framework
+Front End : Vue ; Back End : C# Entity Framework
 ```
 
 ```
