@@ -3,7 +3,7 @@ docker compose up --build
 ```
 
 ```
-browser Laptop : http://localhost:8090
+browser Laptop/PC : http://localhost:8090
 ```
 
 ```
