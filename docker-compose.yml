@@ -38,13 +38,13 @@ services:
   femandiri:
     container_name: femandiri
     image: femandiri/1.0
-    build: ./vueProjectDMMandiri
+    build: ./vueProjectDMCabang
     ports:
       - "8090:8090"
     x-develop:
       watch:
         - action: rebuild
-          path: ./vueProjectDMMandiri
+          path: ./vueProjectDMCabang
           ignore:
             - node_modules/
     depends_on:
